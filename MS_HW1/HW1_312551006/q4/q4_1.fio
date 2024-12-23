@@ -1,0 +1,13 @@
+[global]
+filename=/mnt/ms113/test_file
+bs=4k
+size=64m
+rw=read
+stonewall
+
+[buffered_read]
+direct=0
+
+
+[non_buffered_read]
+direct=1

@@ -1,0 +1,14 @@
+[global]
+filename=/mnt/ms113/test_file
+bs=4k
+size=64m
+direct=1
+stonewall
+
+[forwardwrite]
+rw=write
+
+[backwardwrite]
+rw=write
+ioengine=libaio
+bs=4k
